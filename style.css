@@ -1,0 +1,55 @@
+.cell-row{
+    display: flex;
+}
+
+.cell{
+    width: 80px;
+    height: 40px;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.cell:focus{
+    border: 3px solid dodgerblue;
+    background-color: #ddd;
+}
+
+.header{
+    text-align: center;
+    background-color: #ddd;
+}
+
+.active-header{
+    background-color: dodgerblue;
+    color: white;
+    border: white;
+}
+
+#export-btn{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#save-file{
+    border: 1px solid transparent;
+    border-radius: 2px!important;
+    color: #2b2c2f;
+    font-size: 18px;
+    font-variant-ligatures: no-contextual;
+    height: 20px;
+    line-height: 22px;
+    margin: 0;
+    min-width: 1px;
+    padding: 2px 7px;
+    width: 173px;
+    margin-bottom: 10px;
+}
+
+.bold-txt{
+    font-weight: bold;
+}

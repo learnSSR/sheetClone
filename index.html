@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spreadsheet</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<body>
+     <div>
+        <input id="save-file" type="text" value="Untitled spreadsheet">
+     </div>
+     <button id="export-btn"> Export Spreadsheet</button>
+    <div>
+        <div >Cell: <span id="cell-index"></span></div>
+        <div> fx : <span id="cell-text"></span></div>
+        <div>
+            <button id="boldBtn">bold</button>
+            <button>italic</button>
+            <select name="color" id="selectColor">
+                <option value="null">select color</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select>
+        </div>
+    </div>
+    
+    <div id="spreadsheet-container"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
